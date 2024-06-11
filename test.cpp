@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 //#include <gmock/gmock.h>
 #include <stdexcept>
-#include "plus_l"
+#include "plus_l.cpp"
 
 TEST (sum, test) {
   int a = 2;
