@@ -17,7 +17,7 @@ if (BUILD_MAIN)
 endif()
 
 if (BUILD_TESTS)
-    add_subdirectory(third-party/gtest)
+    #add_subdirectory(third-party/gtest)
     enable_testing()
     include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
     include_directories(${gmock_SOURCE_DIR}/include ${gmock_SOURCE_DIR})
