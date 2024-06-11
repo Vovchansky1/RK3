@@ -1,2 +1,2 @@
 #include <iostream>
-int plus(int a, int b) {return a+b;}
+int slozhi(int a, int b) {return a+b;}
