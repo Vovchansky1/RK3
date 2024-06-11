@@ -10,7 +10,7 @@ jobs:
         with:
           submodules: recursive
       - name: install gtest
-        run: apt-get install libgtest-dev
+        run: sudo apt-get install libgtest-dev
       - name: Build tests
         run: |
           cmake -H. -B_build -DBUILD_TESTS=ON
