@@ -9,6 +9,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
+      - name: install gtest
+        run: apt-get install libgtest-dev
       - name: Build tests
         run: |
           cmake -H. -B_build -DBUILD_TESTS=ON
