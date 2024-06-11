@@ -3,5 +3,5 @@ using namespace std;
 int main() {
   int a, b;
   cin >> a >> b;
-  cout << plus(a, b);
+  cout << slozhi(a, b);
 }
